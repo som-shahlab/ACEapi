@@ -1,0 +1,18 @@
+Package: ACEsearch
+Type: Package
+Title: 'ACE' Search Engine API
+Version: 1.0.0
+Author: Vladimir Polony
+Date: 2020-09-09
+Maintainer: Vladimir Polony <podalv@gmail.com>
+Description: 'ACE' (Advanced Cohort Engine) is a powerful tool that allows constructing cohorts of patients 
+             extremely quickly and efficiently. This package is designed to interface directly with an 
+             instance of 'ACE' search engine and facilitates API queries and data dumps. Prerequisite
+             is a good knowledge of the temporal language to be able to efficiently construct a query.
+             More information available at <https://shahlab.stanford.edu/start>.
+License: MIT + file LICENSE
+URL: https://shahlab.stanford.edu/start
+Imports: httr, testthat
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000

@@ -1,0 +1,8 @@
+import(httr)
+importFrom("utils", "read.csv")
+export(ACEsearch.connect)
+export(ACEsearch.csv)
+export(ACEsearch.query)
+export(ACEsearch.status)
+export(ACEsearch.dump)
+export(ACEsearch.contains)
